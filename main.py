@@ -133,7 +133,7 @@ except:
 database_adjustment(QUESTIONS_database)
 save_questions()
 # get a token
-TOKEN = 'https://quiz.honorcup.ru/app/?id=45815&sign=45bf30ca51861aff2af95aa6ecb42e5b'
+TOKEN = 'https://quiz.honorcup.ru/app/?id=YOUR_ID'
 
 # open a browser (Firefox)
 browser = webdriver.Firefox(executable_path='geckodriver.exe')
